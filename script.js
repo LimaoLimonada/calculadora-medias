@@ -8,8 +8,20 @@
      * 4. Exiba no elemento #output (simulando o 'escreva')
      */
     function resolverDesafio() {
+
         const outputDiv = document.getElementById('output');
+        let n1 = parseFloat(document.getElementById('n1').value)
+        let n2 = parseFloat(document.getElementById('n2').value)
+        let n3 = parseFloat(document.getElementById('n3').value)
+        let n4 = parseFloat(document.getElementById('n4').value)
         
+            let somas = n1 + n2 + n3 + n4
+            let total = somas / 4
+            console.log(total)
+            outputDiv.innerText = total
+      
+        
+
         // --- SEU CÓDIGO COMEÇA AQUI ---
         
         // Exemplo de como capturar:
